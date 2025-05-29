@@ -1,0 +1,13 @@
+//Test Case Output
+
+Enter array size : 8
+
+Enter number of threads : 4
+
+Oreginal Array= 383 886 777 915 793 335 386 492 
+
+Sequential Sorted Array= 335 383 386 492 777 793 886 915 
+
+Parallel Sorted Array= 335 383 386 492 777 793 886 915 
+
+
