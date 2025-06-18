@@ -7,7 +7,7 @@ This repository contains two implementations of the Bitonic Sort algorithm:
 
 ---
 
-## 📌 Project 1 – Bitonic Sort using Pthreads
+## Project 1 – Bitonic Sort using Pthreads
 
 In this project, Bitonic Sort is implemented using both:
 - A sequential recursive version.
@@ -22,7 +22,7 @@ g++ sequential.cpp -o seq
 g++ parallel.cpp -pthread -o par
 ```
 
-Project 2 – Bitonic Sort using OpenMP:
+## Project 2 – Bitonic Sort using OpenMP:
 This project upgrades the previous implementation by replacing Pthreads with OpenMP, making the parallelization simpler and more efficient.
 
 The array is divided into chunks. Each chunk is sorted independently in parallel using OpenMP's #pragma omp parallel for, then merged sequentially.
